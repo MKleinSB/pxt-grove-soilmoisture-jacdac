@@ -10,13 +10,15 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/mkleinsb/pxt-grove-soilmoisture-jacdac** suchen und importieren
 
-## Dieses Projekt bearbeiten
+## Jacdac am Calliope mini V3
 
-Um dieses Repository in MakeCode zu bearbeiten.
+Mit Jacdac werden von einem am rechten Groveport (C16) angeschlossenen Grove Feuchtesensor Livedaten per WebUSB übertragen. 
+Falls der Sensor nicht angeschlossen ist, wird ein "digitaler Zwilling" erzeugt, an dem die Feuchtigkeit in % eingegeben werden kann.
+Bei dieser Erweiterung handelt es sich um ein Softwarejacdac. Module die an einem der Jacdacports des Calliope mini 
+angeschlossen werden benötigen nach dem Laden des normalen Jacdac-Pakets keine weitere Software.
 
-* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/mkleinsb/pxt-grove-soilmoisture-jacdac** ein und klicke auf Importieren
+
+![... in Aktion](https://github.com/MKleinSB/pxt-grove-soilmoisture-jacdac/blob/master/SoilMoisture.png)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
