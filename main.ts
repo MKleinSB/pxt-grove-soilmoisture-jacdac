@@ -15,7 +15,6 @@ namespace servers {
                 jacdac.SRV_SOIL_MOISTURE,
                 jacdac.SoilMoistureRegPack.Moisture,
                 () => pins.analogReadPin(AnalogPin.C16) / 1023,
-                { streamingInterval: 100 }
             ),
         ])
     }
