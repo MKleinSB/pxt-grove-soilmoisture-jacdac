@@ -1,6 +1,6 @@
 {
     "name": "pxt-grove-soilmoisture-jacdac",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Jacdac for Grove soil moisture at C16",
     "dependencies": {
         "core": "*",
